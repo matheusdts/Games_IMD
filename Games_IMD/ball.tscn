@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ball.gd" type="Script" id=1]
+[ext_resource path="res://ball.png" type="Texture" id=2]
+
+[node name="ball" type="Sprite"]
+position = Vector2( 45.5, 145.5 )
+scale = Vector2( 0.15544, 0.145078 )
+texture = ExtResource( 2 )
+script = ExtResource( 1 )
